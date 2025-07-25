@@ -11,7 +11,7 @@ img,
 .plan,
 .card,
 .item-wrapper {
-  border-radius: 2rem !important;
+  border-radius: 0 !important;
 }
 .video-wrapper {
   overflow: hidden;
@@ -127,11 +127,7 @@ body {
 .btn {
   padding: 1.25rem 2rem;
   border-radius: 4px;
-}
-@media (max-width: 767px) {
-  .btn {
-    padding: 0.75rem 1.5rem;
-  }
+  padding: 0.75rem 1.5rem;
 }
 .btn-sm {
   padding: 0.6rem 1.2rem;
@@ -599,12 +595,6 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 .alert-danger {
   background-color: #b78c1f;
 }
-.mbr-section-btn .btn:not(.btn-form) {
-  border-radius: 100px;
-}
-.mbr-gallery-filter li a {
-  border-radius: 100px !important;
-}
 .mbr-gallery-filter li.active .btn {
   background-color: #ffffff;
   border-color: #ffffff;
@@ -612,9 +602,6 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 }
 .mbr-gallery-filter li.active .btn:focus {
   box-shadow: none;
-}
-.nav-tabs .nav-link {
-  border-radius: 100px !important;
 }
 a,
 a:hover {
@@ -649,7 +636,6 @@ a:hover {
   font-size: 1rem;
   line-height: 1.3;
   font-weight: 400;
-  border-radius: 40px !important;
 }
 .form-control > .mbr-iconfont {
   font-size: 1.25rem;
@@ -672,19 +658,6 @@ blockquote {
   border-color: #ffffff;
 }
 /* Forms */
-.mbr-form .input-group-btn .btn {
-  border-radius: 100px !important;
-}
-.mbr-form .input-group-btn .btn:hover {
-  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
-}
-.mbr-form .input-group-btn button[type="submit"] {
-  border-radius: 100px !important;
-  padding: 1rem 3rem;
-}
-.mbr-form .input-group-btn button[type="submit"]:hover {
-  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
-}
 .jq-selectbox li:hover,
 .jq-selectbox li.selected {
   background-color: #ffffff;
@@ -780,13 +753,9 @@ a {
 }
 .cid-uRSKeC3dmv {
   display: flex;
-  padding-top: 0rem;
+  padding-top: 2rem;
   padding-bottom: 0rem;
-  background-image: url("../../../assets/images/background3.jpg");
-}
-.cid-uRSKeC3dmv .mbr-overlay {
-  background-color: #1f6463;
-  opacity: 0.8;
+  background-color: #61a4d0;
 }
 .cid-uRSKeC3dmv .content-wrap {
   padding: 5rem 1rem;
@@ -888,7 +857,7 @@ a {
 .cid-uRSTaCrA4i .item-subtitle {
   line-height: 1.2;
   color: #393193;
-  text-align: left;
+  text-align: center;
 }
 .cid-uRSTaCrA4i img,
 .cid-uRSTaCrA4i .item-img {
@@ -930,7 +899,7 @@ a {
 .cid-uRSTaCrA4i .mbr-text,
 .cid-uRSTaCrA4i .mbr-section-btn {
   color: #393193;
-  text-align: left;
+  text-align: center;
 }
 .cid-uRSTaCrA4i .item-title {
   color: #393193;
@@ -978,10 +947,12 @@ a {
 }
 .cid-uRSV6FoPpS .mbr-section-title {
   color: #393193;
+  text-align: center;
 }
 .cid-uRSV6FoPpS .mbr-text,
 .cid-uRSV6FoPpS .mbr-section-btn {
   color: #393193;
+  text-align: center;
 }
 .cid-uRSVIIDiIQ {
   padding-top: 5rem;
@@ -1120,6 +1091,66 @@ a {
   .cid-uRSWripoQg .item-wrapper {
     margin-bottom: 1rem;
   }
+}
+.cid-uRX6Gr95wt {
+  padding-top: 6rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-uRX6Gr95wt .item-subtitle {
+  line-height: 1.2;
+  color: #61a4d0;
+}
+.cid-uRX6Gr95wt img,
+.cid-uRX6Gr95wt .item-img {
+  width: 100%;
+  height: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.cid-uRX6Gr95wt .item:focus,
+.cid-uRX6Gr95wt span:focus {
+  outline: none;
+}
+.cid-uRX6Gr95wt .item {
+  margin-bottom: 2rem;
+}
+@media (max-width: 767px) {
+  .cid-uRX6Gr95wt .item {
+    margin-bottom: 1rem;
+  }
+}
+.cid-uRX6Gr95wt .item-wrapper {
+  position: relative;
+  border-radius: 4px;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.cid-uRX6Gr95wt .item-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.cid-uRX6Gr95wt .item-content .item-footer {
+  margin-top: auto;
+}
+.cid-uRX6Gr95wt .mbr-section-title {
+  color: #61a4d0;
+}
+.cid-uRX6Gr95wt .mbr-text,
+.cid-uRX6Gr95wt .mbr-section-btn {
+  color: #61a4d0;
+  text-align: center;
+}
+.cid-uRX6Gr95wt .item-title {
+  color: #61a4d0;
+}
+.cid-uRX6Gr95wt .content-head {
+  max-width: 800px;
+}
+.cid-uRX6Gr95wt .item-subtitle DIV {
+  text-align: center;
 }
 .cid-uRSWYxBGBg {
   padding-top: 0rem;
