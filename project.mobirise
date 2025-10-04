@@ -1,12 +1,13 @@
 {
   "settings": {
-    "name": "BlackunicornRecords",
+    "name": "Vale Do Pio",
     "currentPage": "index.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
       "titlePreset": "StartM5",
       "styling": {
+        "backgroundColor": "#ffffff",
         "primaryColor": "#0c2c68",
         "secondaryColor": "#ffd7ef",
         "successColor": "#3a341c",
@@ -82,7 +83,7 @@
     "screenshot": "screenshot.png",
     "publishEditFolder": false,
     "favicon": "@PROJECT_PATH@/assets/images/whatsapp-image-2025-07-21-at-22.51.29.jpeg",
-    "mbrsiteDomain": "valedopio",
+    "mbrsiteDomain": "pmohde0v4r",
     "imageResize": true,
     "usedWebp": false,
     "robotsSwitcher": true,
