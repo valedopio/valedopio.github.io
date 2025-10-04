@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "BlackunicornRecords",
-    "currentPage": "index.html",
+    "currentPage": "tinyhouse.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -103,7 +103,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/whatsapp-image-2025-07-21-at-22.51.29-1.jpeg"
+        "meta_image": "@PROJECT_PATH@/assets/images/horses-top.jpg"
       },
       "components": [
         {
@@ -4680,10 +4680,13 @@
         }
       ]
     },
-    "page3.html": {
+    "tinyhouse.html": {
       "settings": {
         "title": "The Stables - Short Stay Rental",
-        "order": "1"
+        "order": "1",
+        "meta_descr": "Stay in our beautiful tiny house surrounded by nature in central Portugal.",
+        "socialSharingUrl": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/img-2632-large-712x446.jpg"
       },
       "components": [
         {
