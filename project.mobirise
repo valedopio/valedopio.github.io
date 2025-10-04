@@ -91,7 +91,7 @@
     "siteUrl": false,
     "gdpr": false,
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
-    "publishChangesOnly": true,
+    "publishChangesOnly": false,
     "cookiesAlert": false
   },
   "pages": {
