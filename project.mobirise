@@ -24,7 +24,7 @@
         "display7Size": "1",
         "display4Font": "Poppins",
         "display4Size": "1",
-        "isRoundedImages": true,
+        "isRoundedImages": false,
         "isRoundedButtons": true,
         "isLargeButtons": false,
         "isGhostButtonBorder": true,
