@@ -6002,16 +6002,16 @@ a {
   object-fit: cover;
 }
 .cid-uYK1E821HT .card-wrapper {
-  background: #edefeb;
+  background: #000000;
 }
 .cid-uYK1E821HT .mbr-text,
 .cid-uYK1E821HT .mbr-section-btn {
-  color: #000000;
+  color: #ffffff;
   text-align: left;
 }
 .cid-uYK1E821HT .card-title,
 .cid-uYK1E821HT .card-box {
-  color: #232323;
+  color: #ffffff;
 }
 @media (max-width: 767px) {
   .cid-uYK1E821HT .card-content-text {
