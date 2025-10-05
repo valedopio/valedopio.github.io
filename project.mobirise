@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Vale Do Pio",
-    "currentPage": "EquiCoaching.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -78,7 +78,7 @@
         "file": "@PROJECT_PATH@/fonts/Pirate-Scroll/font.ttf"
       }
     ],
-    "uniqCompNum": 121,
+    "uniqCompNum": 122,
     "versionPublish": "5.9.18",
     "screenshot": "screenshot.png",
     "publishEditFolder": false,
@@ -1341,6 +1341,25 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": "facebook-comments",
+          "_isSecondary": true,
+          "typeCompatible": "!isAMP",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor"
+          },
+          "_name": "social-comments",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section class=\"facebook-comments\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Content Width\" name=\"contentWidth\" min=\"6\" max=\"12\" step=\"1\" value=\"8\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n        <input type=\"radio\" title=\"Facebook\" name=\"social\" value=\"facebook\" checked>\n        <input type=\"radio\" title=\"Disqus\" name=\"social\" value=\"disqus\">\n        <header condition=\"social=='facebook'\">Facebook</header>\n        <input type=\"text\" name=\"urlFacebook\" title=\"Location\" value=\"https://www.facebook.com/profile.php?id=61578970554340\" condition=\"social=='facebook'\">\n        <input type=\"range\" name=\"numPosts\" title=\"Number\" step=\"1\" min=\"1\" max=\"20\" value=\"5\" condition=\"social=='facebook'\">\n        <select name=\"language\" title=\"Language\" condition=\"social=='facebook'\">\n            <option value=\"en_US\" selected>English</option>\n            <option value=\"de_DE\">Deutsch</option>\n            <option value=\"es_ES\">Español</option>\n            <option value=\"fr_FR\">Français</option>\n            <option value=\"pt_PT\">Português</option>\n            <option value=\"ru_RU\">Русский</option>\n        </select>\n        <header condition=\"social=='disqus'\">Disqus</header>\n        <input type=\"text\" name=\"shortName\" title=\"Short Name\" value=\"Shortname\" condition=\"social=='disqus'\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    \n    <div class=\"container align-center col-12 col-lg-{{contentWidth}}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h2 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                <b>Social Comments</b>\n            </h2>\n            <h3 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Leave a comment\n            </h3>\n        </div>\n        <div class=\"comments-wrapper mt-4\">\n            <div class=\"comments-placeholder\">\n                <img src=\"@PROJECT_PATH@/assets/images/facebook-comments.jpg\" mbr-if=\"social=='facebook'\" alt>\n                <img src=\"../assets/disqus-comments.jpg\" mbr-if=\"social=='disqus'\">\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "uYMLyaMn6x",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "social-comments-3d"
         },
         {
           "alias": false,
